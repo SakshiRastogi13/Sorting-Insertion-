@@ -28,7 +28,7 @@ public class Bubble_Sort_Without_Recursion {
     public static void main(String args[])
     {
     	Scanner sc=new Scanner(System.in);
-        Bubble_Sort_Without_Recursion bs1 = new Bubble_Sort_Without_Recursion();
+        Bubble_Sort_Without_Recursion bs = new Bubble_Sort_Without_Recursion();
     	System.out.println("Enter the length of the array:-");
     	int n=sc.nextInt();
         int arr[] = new int[n];
@@ -41,15 +41,13 @@ public class Bubble_Sort_Without_Recursion {
         	System.out.print(arr[i]+" ");
         }
         System.out.println();
-        bs1.bubbleSort(arr);
+        bs.bubbleSort(arr);
         System.out.println("Sorted array");
         for(int i=0;i<n;i++) {
         	System.out.print(arr[i]+" ");
         }
     }
 }
-
-
 
 
 
